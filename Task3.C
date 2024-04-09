@@ -4,7 +4,7 @@ int main()
 {
     char ch;
     printf("알파벳을 입력하세요:");
-    scanf("%c", &ch);
+    scanf("%d", &ch);
 
     switch (ch)
     {
@@ -18,18 +18,18 @@ int main()
         case 'O':
         case 'u':
         case 'U':
-            printf("%c는 모음입니다.\n", ch);                        //틀린 부분을 고치시오.
+            printf("%d는 모음입니다.\n");                       
             
 
         default:
             if(ch>= 'a' && ch <= 'z')
             {
-                printf("%c는 자음입니다.\n", ch);
+                printf("%d는 자음입니다.\n");
                 
             }
             if(ch>= 'A' && ch <= 'Z')
             {
-                printf("%c는 자음입니다.\n", ch);
+                printf("%d는 자음입니다.\n");
                 
             }
             else
