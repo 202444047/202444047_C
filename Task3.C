@@ -9,7 +9,7 @@ int main()
     switch (ch)
     {
         case 'a':
-        case 'A':
+        case 'A':                                            //오류 3개
         case 'e':
         case 'E':
         case 'i':
