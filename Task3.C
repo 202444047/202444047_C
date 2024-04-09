@@ -18,24 +18,24 @@ int main()
         case 'O':
         case 'u':
         case 'U':
-            printf("%c는 모음입니다.\n", ch);
-            break;
+            printf("%c는 모음입니다.\n", ch);                        //틀린 부분을 고치시오.
+            
 
         default:
             if(ch>= 'a' && ch <= 'z')
             {
                 printf("%c는 자음입니다.\n", ch);
-                break;
+                
             }
             if(ch>= 'A' && ch <= 'Z')
             {
                 printf("%c는 자음입니다.\n", ch);
-                break;
+                
             }
             else
             {
                 printf("입력값은 알파벳이 아닙니다.\n");
-                break;
+                
             }
     }
     return 0;
